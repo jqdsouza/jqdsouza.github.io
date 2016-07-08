@@ -146,9 +146,10 @@ ul,li{
 body, p{
 	/*font-family: 'MyriadPro-Regular', serif;*/
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400; 
+	font-weight: 200; 
 	font-size: 18px;
 	line-height: 30px;
+	color: #333333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,9 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-    font-size: 36px;
+    font-size: 35px;
     line-height: 48px;
     color: #FFFFFF;
+    font-weight: 200; 
+
 }
 
 h2{
@@ -174,19 +177,21 @@ h3{
     font-size: 22px;
     line-height: 24px;
   	text-transform: uppercase;
-  	font-weight: 500;
-  	 color: #000000;
+  	font-weight: 400;
+  	color: #000000;
 }
 
 h4{
-    font-size: 18px;
+    font-size: 30px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 400;
+    color: #000000;
 }
 
 h5{
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
+    color: #000000;
 }
 
 /*Button styles
@@ -319,7 +324,7 @@ h2.title{
 	background: #FFFFFF;
 	border: 0px;
 	border-radius: 0px;
-	box-shadow: 0px -10px 21px 0px rgba(0, 0, 0, 0.004);
+	
 }
 .navbar-nav {}
 .navbar-nav li{
@@ -332,34 +337,30 @@ h2.title{
 	font-size: 16px;
 	font-family: 'Helvetica', serif;
 	color: 	#000000;
-	line-height: 20px;
-	box-shadow: 0px -5px 21px 0px rgba(0, 0, 0, 0.004);
+	line-height: 15px;
+
+	
 }
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
 	color: #2ecc71;
-	box-shadow: 0px -5px 21px 0px rgba(0, 0, 0, 0.004);
+	
 }
 .main-nav{
 	width: 100%;
 	margin: 20 auto;
-	box-shadow: 0px -5px 21px 0px rgba(0, 0, 0, 0.004);
+	
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #2ecc71;
     background-color: transparent;
-    box-shadow: 0px -5px 21px 0px rgba(0, 0, 0, 0.004);
-}
 
-.example {
-	background: #e6e9ee;
-	width: 1132px;
 }
 .navbar-brand img{
 	float: left;
 	margin-right: 20px;
 	position: absolute;
-	left: 132px;
+	left: 146px;
 	top: 0px;
 	width: 70px;
 	height: 50px;
@@ -370,7 +371,7 @@ h2.title{
 	color: #000000!important;
 	line-height: 40px;
 	padding-top: 25px;
-	box-shadow: 0px -5px 21px 0px rgba(0, 0, 0, 0.004);
+
 }
 .navbar-brand span{
 	color: #2ecc71;
@@ -461,9 +462,9 @@ h2.title{
     background-attachment: scroll;
     background-origin: padding-box;
     background-repeat: no-repeat;
-    right: 20px;
+    right: 40px;
     top: 200px;
-    height: 70%;
+    height: 68%;
     z-index: 2;
     background-size: cover;
     background-position: -40px center, 0px center;

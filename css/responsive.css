@@ -3,6 +3,7 @@
 
 /* Large Devices, Wide Screens */
 @media (min-width : 1200px) {
+	
 }
 
 
@@ -45,6 +46,8 @@
 
 	.image-overlay a i {
 	    margin-top: 65px;
+	    height: 50px;
+	    width: 50px;
 	}
 
 }
