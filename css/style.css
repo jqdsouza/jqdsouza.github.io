@@ -646,28 +646,33 @@ h2.title{
 }
 .contact-left{
 	padding-top: 30px;
+	color: #FFFFFF;
 }
 .contact-left p{
 	color: #919191;
 	font-size: 18px;
 	line-height: 30px;
+
 }
 
 .contact-left h2{
 	color: #fff;
+
 }
 .location{
 	margin: 45px 0px;
 }
 .contact-left ul{
 	margin-left: -40px;
+
 }
 .contact-left ul li a{
 	color: #919191;
 	margin-left: 40px;
+
 }
 .contact-left ul li span{
-	color: #fff;
+
 	
 }
 
@@ -688,11 +693,13 @@ h2.title{
 	border-radius: 0px;
 	background: #4b5456;
 	border: 0px;
+	color: #FFFFFF;
 }
 .contact-form .btn-default{
 	
 	background: #191f21;
 	border: 0px;
+	color: #FFFFFF;
 }
 
 
