@@ -313,6 +313,8 @@ h2.title{
 }
 
 
+
+
 /*==================================================
 	navbar-menu
 =====================================================*/
@@ -332,15 +334,14 @@ h2.title{
 }
 .navbar-default .navbar-nav > li > a{
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 100;
 	padding: 15px 20px;
 	font-size: 16px;
 	font-family: 'Helvetica', serif;
 	color: 	#000000;
 	line-height: 15px;
-
-	
 }
+
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
 	color: #2ecc71;
 	
@@ -371,7 +372,6 @@ h2.title{
 	color: #000000!important;
 	line-height: 40px;
 	padding-top: 25px;
-
 }
 .navbar-brand span{
 	color: #2ecc71;
@@ -410,13 +410,14 @@ h2.title{
     background-attachment: scroll;
     background-origin: padding-box;
     background-repeat: no-repeat;
-    left: 0px;
-    top: 0px;
-    height: 60%;
+    left: 20px;
+    top: 100px;
+    height: 50%;
     z-index: 2;
     background-size: cover;
-    background-position: -40px center, 0px center;
-    width: 50%;
+    background-position: 0px center, 0px center;
+    width: 45%;
+    border-radius: 50%;
 }
 .profile-desc{
 	margin-bottom: 70px;
@@ -469,6 +470,7 @@ h2.title{
     background-size: cover;
     background-position: -40px center, 0px center;
     width: 45%;
+    border-radius: 50%
 }
 
 /*section-skills
@@ -609,6 +611,10 @@ h2.title{
 .portfolio-box{
 	position: relative;
 	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
 	-webkit-transition: all .4s linear 0s;
 	-o-transition: all .4s linear 0s;
 	transition: all .4s linear 0s;
@@ -626,7 +632,7 @@ h2.title{
 	transition: all .3s linear 0s;
 }
 .image-overlay a i{
-	font-size: 50px;
+	font-size: 30px;
 	color: #fff;
 	margin-top: 120px;
 }
