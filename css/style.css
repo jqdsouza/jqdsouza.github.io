@@ -607,6 +607,7 @@ h2.title{
 #section-portfolio
 .section-heading{
 	margin-bottom: 100px;
+
 }
 .portfolio-box{
 	position: relative;
@@ -614,6 +615,7 @@ h2.title{
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
+
 
 	-webkit-transition: all .4s linear 0s;
 	-o-transition: all .4s linear 0s;
@@ -635,9 +637,12 @@ h2.title{
 	font-size: 30px;
 	color: #fff;
 	margin-top: 120px;
+
 }
 .portfolio-box:hover .image-overlay{
 	opacity: 1;
+	
+
 }
 
 
