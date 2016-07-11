@@ -64,6 +64,49 @@
 	     url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
 }
 
+.trigger {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    bottom: 0;
+    height: 40px;
+    margin: 10px;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
+/* Hide the text */
+.trigger span {
+    position: absolute;
+    top: 100%;
+}
+.icon rect,
+.icon line {
+    stroke: #2098f5;
+    fill: #2098f5;
+    stroke-width: 2px;
+}
+.icon {
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+}
+/* Hide grid and show cross when opening */
+.icon-cross,
+.trigger-active .icon-grid {
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+    transform: scale3d(0.5, 0.5, 1);
+}
+.trigger-active .icon-cross {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
 /* Global styles
 ================================================== */
 
